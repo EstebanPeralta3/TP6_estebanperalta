@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="pagina2.css">
+    <script src="pagina2.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 id="welcome-message">Bienvenido a la Página Principal</h1>
+        <div id="name-section">
+            <p id="ask-name">¿Cómo te llamas?</p>
+            <input type="text" id="user-name" placeholder="Escribe tu nombre" />
+            <button id="submit-name">Enviar</button>
+        </div>
+        <p id="greeting" style="display: none;"></p>
+
+        <h2>Páginas disponibles</h2>
+        <h2>Formulario 1</h2>
+        <p>Fomulario para enviar</p>
+        <h2>Formulario Texto</h2>
+        <p>Formulario que se pude enviar con texto</p>
+        <div class="button-container">
+            <button class="animated-button" onclick="location.href='pagina2.html'">INICIO</button>
+            <button class="animated-button" onclick="location.href='pagina3.html'">Formulario 1</button>
+            <button class="animated-button" onclick="location.href='pagina4.html'">Formulario Texto</button>
+        </div>
+    </div>
+</body>
+
+</html>
